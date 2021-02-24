@@ -1,0 +1,10 @@
+Animal|Service Provider|Location|Age|Needs|Diseases|Criteria
+Dog|NGO|Kolkata|5|Caring|Distemper|Open
+Cat|VET|Dum Dum|4|Feeding|Ringworm|Closed
+Cat|NGO|Kolkata|5|Sterilisation|Heartworm|Domestic
+Cat|NGO|Kolkata|5|Vaccination|NA|NA
+Cat|NGO|Kolkata|4|Treatment|Diabetes|NA
+Bird|PARAVET|Salt Lake|3|Maintain|NA|International
+Hamster|GROMMER|New Town|2|Caring|NA|NA
+Rabbit|GROMMER|New Town|2|NA|NA|Domestic
+Hamster|VET|Alipurduar|1|Caring|NA|Open
