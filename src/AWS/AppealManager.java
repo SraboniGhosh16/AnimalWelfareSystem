@@ -235,10 +235,10 @@ public class AppealManager
     	//Work with Screens
     	mgr.createScreens();
     	mgr.showScreen1();
-		/*mgr.showScreen2();
-		mgr.showScreen3();
-		mgr.showScreen4();
-		mgr.exitAWS();*/
+		//mgr.showScreen2();
+		//mgr.showScreen3();
+		//mgr.showScreen4();
+		//mgr.exitAWS();
       	
     	/*
     	//Unit Tests Appeal Manager

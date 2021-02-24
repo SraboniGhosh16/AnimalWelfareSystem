@@ -35,7 +35,7 @@ public class AdoptUI
 	 */
 	private void initialize() {
 		frm_adopt = new JFrame();
-		frm_adopt.setIconImage(Toolkit.getDefaultToolkit().getImage(AdoptUI.class.getResource("/demo/1.png")));
+		frm_adopt.setIconImage(Toolkit.getDefaultToolkit().getImage("1.png"));
 		frm_adopt.setFont(new Font("Arial", Font.PLAIN, 13));
 		frm_adopt.setTitle("ADOPT_Aadriza_Sen_Sharma_183");
 		frm_adopt.setBounds(100, 100, 500, 700);
@@ -135,28 +135,28 @@ public class AdoptUI
 													txt_age.setColumns(10);
 													
 													JLabel lbl_location = new JLabel("Select Location : ");
-													lbl_location.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/location5.png")));
+													lbl_location.setIcon(new ImageIcon("location5.png"));
 													lbl_location.setForeground(new Color(0, 0, 153));
 													lbl_location.setBounds(60, 133, 115, 22);
 													panel_find.add(lbl_location);
 													lbl_location.setFont(new Font("Times New Roman", Font.PLAIN, 14));
 													
 													JLabel lbl_animal = new JLabel("Select Animal : ");
-													lbl_animal.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/animal.png")));
+													lbl_animal.setIcon(new ImageIcon("animal.png"));
 													lbl_animal.setForeground(new Color(0, 0, 153));
 													lbl_animal.setBounds(60, 241, 115, 22);
 													panel_find.add(lbl_animal);
 													lbl_animal.setFont(new Font("Times New Roman", Font.PLAIN, 14));
 													
 													JLabel lbl_serviceP = new JLabel("Select Service Provider : ");
-													lbl_serviceP.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/sp2.png")));
+													lbl_serviceP.setIcon(new ImageIcon("sp2.png"));
 													lbl_serviceP.setForeground(new Color(0, 0, 153));
 													lbl_serviceP.setBounds(60, 349, 169, 22);
 													panel_find.add(lbl_serviceP);
 													lbl_serviceP.setFont(new Font("Times New Roman", Font.PLAIN, 14));
 													
 													JLabel lbl_age = new JLabel("Enter Age : ");
-													lbl_age.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/age.png")));
+													lbl_age.setIcon(new ImageIcon("age.png"));
 													lbl_age.setForeground(new Color(0, 0, 153));
 													lbl_age.setBounds(60, 457, 115, 22);
 													panel_find.add(lbl_age);
@@ -169,12 +169,12 @@ public class AdoptUI
 													heading_lbl.setFont(new Font("Microsoft YaHei Light", Font.BOLD, 20));
 													
 													JLabel lbl_findImg = new JLabel("");
-													lbl_findImg.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/form3.png")));
+													lbl_findImg.setIcon(new ImageIcon("form3.png"));
 													lbl_findImg.setBounds(181, 35, 38, 55);
 													panel_find.add(lbl_findImg);
 													
 													JButton btn_find = new JButton("FIND");
-													btn_find.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/find6.png")));
+													btn_find.setIcon(new ImageIcon("find6.png"));
 													btn_find.addActionListener(new ActionListener() 
 													{
 														public void actionPerformed(ActionEvent e) 
@@ -252,7 +252,7 @@ public class AdoptUI
 													frm_adopt.getContentPane().add(panel_show);
 													
 													JLabel lbl_adoptImg = new JLabel("");
-													lbl_adoptImg.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/adoption.png")));
+													lbl_adoptImg.setIcon(new ImageIcon("adoption.png"));
 													lbl_adoptImg.setBounds(203, 540, 78, 80);
 													panel_show.add(lbl_adoptImg);
 													
@@ -263,12 +263,12 @@ public class AdoptUI
 													panel_show.add(lbl_matches);
 													
 													JLabel lbl_matchesImg = new JLabel("");
-													lbl_matchesImg.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/found3.png")));
+													lbl_matchesImg.setIcon(new ImageIcon("found3.png"));
 													lbl_matchesImg.setBounds(150, 39, 35, 49);
 													panel_show.add(lbl_matchesImg);
 													
 													JButton btn_ok = new JButton("Exit");
-													btn_ok.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/yes.png")));
+													btn_ok.setIcon(new ImageIcon("yes.png"));
 													btn_ok.addActionListener(new ActionListener() {
 														public void actionPerformed(ActionEvent e) {
 															frm_adopt.setVisible(false);
@@ -281,7 +281,7 @@ public class AdoptUI
 													panel_show.add(btn_ok);
 													
 													JButton btn_back = new JButton("Back");
-													btn_back.setIcon(new ImageIcon(AdoptUI.class.getResource("/demo/back.png")));
+													btn_back.setIcon(new ImageIcon("back.png"));
 													btn_back.addActionListener(new ActionListener() {
 														public void actionPerformed(ActionEvent e) {
 															panel_find.setVisible(true);
