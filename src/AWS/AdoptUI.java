@@ -271,7 +271,12 @@ public class AdoptUI
 													btn_ok.setIcon(new ImageIcon("yes.png"));
 													btn_ok.addActionListener(new ActionListener() {
 														public void actionPerformed(ActionEvent e) {
-															frm_adopt.setVisible(false);
+															//frm_adopt.setVisible(false);
+                                                                                                                        Container frame = btn_ok.getParent();
+            do 
+                frame = frame.getParent(); 
+            while (!(frame instanceof JFrame));                                      
+            ((JFrame) frame).dispose();
 														}
 													});
 													btn_ok.setForeground(new Color(0, 204, 0));

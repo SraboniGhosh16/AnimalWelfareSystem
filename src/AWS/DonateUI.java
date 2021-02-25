@@ -1,6 +1,8 @@
 package AWS;
 
+import java.awt.Container;
 import java.util.ArrayList;
+import javax.swing.JFrame;
 
 /**
  *
@@ -338,7 +340,11 @@ public class DonateUI extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        Container frame = jButton3.getParent();
+            do 
+                frame = frame.getParent(); 
+            while (!(frame instanceof JFrame));                                      
+            ((JFrame) frame).dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -350,7 +356,11 @@ public class DonateUI extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        System.exit(0);
+        Container frame = jButton5.getParent();
+            do 
+                frame = frame.getParent(); 
+            while (!(frame instanceof JFrame));                                      
+            ((JFrame) frame).dispose();
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void setFoundMatches(ArrayList<DonationAppeal> matches)

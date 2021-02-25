@@ -6,6 +6,7 @@ import javax.swing.JFrame;
 
 public class DisplayManager 
 {
+    private HomeUI screen0;
 	private AdoptUI screen1;
 	private DonateUI screen2;
 	private AdoptionAppealUI screen3;
@@ -24,11 +25,20 @@ public class DisplayManager
 	
 	public void createScreens() 
 	{
+            screen0 = new HomeUI(this);
 		screen1 = new AdoptUI(this);
 		screen2 = new DonateUI(this); 
 		screen3 = new AdoptionAppealUI(this); 
 		screen4 = new DonationAppealUI(this);
     }
+        public void showScreen0()
+	{
+            screen0.setVisible(true);
+		screen1.frm_adopt.setVisible(false);
+		screen2.setVisible(false);
+		screen3.setVisible(false);
+		screen4.setVisible(false);
+	}
 	
 	public void showScreen1()
 	{

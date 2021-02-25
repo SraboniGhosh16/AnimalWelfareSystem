@@ -234,7 +234,8 @@ public class AppealManager
 		
     	//Work with Screens
     	mgr.createScreens();
-    	mgr.showScreen1();
+        mgr.showScreen0();
+    	//mgr.showScreen1();
 		//mgr.showScreen2();
 		//mgr.showScreen3();
 		//mgr.showScreen4();
