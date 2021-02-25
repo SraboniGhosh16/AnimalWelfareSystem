@@ -80,7 +80,7 @@ public class DonationManager
 			if(donateappeal.get(i).getCause().equals(ca))
 			found.add(find(i));
 		}
-		System.out.println("\nPrinting donationlist:\n"+found);
+		//System.out.println("\nPrinting donationlist:\n"+found);
 		
 		return found;
 	}
@@ -92,7 +92,7 @@ public class DonationManager
 	       if(donateappeal.get(i).getCause().equals(ca)&& donateappeal.get(i).getServiceProvider().equals(sp))
 	       found.add(find(i));
 	   }
-	   System.out.println("\nPrinting donationlist:\n"+found);
+	   //System.out.println("\nPrinting donationlist:\n"+found);
 	   
 	   return found;
 	   

@@ -97,7 +97,7 @@ public class AdoptionManager
 			if(adoptappeal.get(i).getAnimal().equals(an) && adoptappeal.get(i).getSpUsername().equals(sp) && adoptappeal.get(i).getLocation().equals(l) && adoptappeal.get(i).getAge()==a)
 				found.add(find(i));
 		}
-		System.out.println("\nPrinting adoptionlist : \n"+found);
+		//System.out.println("\nPrinting adoptionlist : \n"+found);
 		return found;
 	}
 	public ArrayList<AdoptionAppeal>  searchAdoptionAppeal(String an,String sp,String l)
@@ -107,7 +107,7 @@ public class AdoptionManager
 			if(adoptappeal.get(i).getAnimal().equals(an) && adoptappeal.get(i).getSpUsername().equals(sp) && adoptappeal.get(i).getLocation().equals(l))
 				found.add(find(i));
 		}
-		System.out.println("\nPrinting adoptionlist : \n"+found);
+		//System.out.println("\nPrinting adoptionlist : \n"+found);
 		return found;
 	}
 	public List<AdoptionAppeal> getDetails() 
