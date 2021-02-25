@@ -40,7 +40,7 @@ public class DisplayManager
 		screen4.setVisible(false);
 	}
 	
-	public void showScreen1()
+	/*public void showScreen1()
 	{
 		screen1.frm_adopt.setVisible(true);
 		screen2.setVisible(false);
@@ -70,7 +70,7 @@ public class DisplayManager
 		screen2.setVisible(false);
 		screen3.setVisible(false);
 		screen4.setVisible(true);
-	}
+	}*/
 	
 	public void exitAWS()
 	{
