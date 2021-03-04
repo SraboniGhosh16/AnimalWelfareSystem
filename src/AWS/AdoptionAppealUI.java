@@ -1,10 +1,13 @@
 package AWS;
 
+
 import java.awt.Container;
 import javax.swing.*;
-import javax.swing.GroupLayout.Alignment;
-import javax.swing.LayoutStyle.ComponentPlacement;
-import java.awt.Color;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 
 /**
  *
@@ -18,7 +21,6 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
     public AdoptionAppealUI(DisplayManager mgr) {
         this.mgr = mgr;
         initComponents();
-        //mgr.initAA("adoptappeal.csv");
         AAppeal1.setVisible(true);
         AAppeal2.setVisible(false);
         AAppeal3.setVisible(false);
@@ -33,20 +35,6 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        AAppeal3 = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jLabel17 = new javax.swing.JLabel();
-        AAppeal2 = new javax.swing.JPanel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
         AAppeal1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -62,9 +50,7 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
         jComboBox3 = new javax.swing.JComboBox<>();
         jTextField4 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jButton1.setForeground(Color.GREEN);
         jButton2 = new javax.swing.JButton();
-        jButton2.setForeground(Color.RED);
         jTextField3 = new javax.swing.JTextField();
         jError1 = new javax.swing.JLabel();
         jError2 = new javax.swing.JLabel();
@@ -74,365 +60,272 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
         jError6 = new javax.swing.JLabel();
         jError7 = new javax.swing.JLabel();
         jComboBox0 = new javax.swing.JComboBox<>();
+        jSeparator1 = new javax.swing.JSeparator();
+        jLabel21 = new javax.swing.JLabel();
+        AAppeal2 = new javax.swing.JPanel();
+        jButton3 = new javax.swing.JButton();
+        jLabel19 = new javax.swing.JLabel();
+        AAppeal3 = new javax.swing.JPanel();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Animal Welfare System");
+        setIconImage(new javax.swing.ImageIcon(getClass().getResource("/img/logo.png")).getImage());
 
-        jLabel13.setFont(new java.awt.Font("Microsoft YaHei", 0, 24)); // NOI18N
-        jLabel13.setText("Your APPEAL");
+        AAppeal1.setMaximumSize(new java.awt.Dimension(929, 610));
+        AAppeal1.setMinimumSize(new java.awt.Dimension(929, 610));
+        AAppeal1.setPreferredSize(new java.awt.Dimension(929, 610));
+        AAppeal1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel14.setFont(new java.awt.Font("Microsoft YaHei", 0, 26)); // NOI18N
-        jLabel14.setText("For ADOPTION");
+        jLabel1.setFont(new java.awt.Font("Microsoft YaHei", 1, 25)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 0, 0));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("APPEAL FOR ADOPTION");
+        AAppeal1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 310, 50));
 
-        jLabel15.setFont(new java.awt.Font("Microsoft YaHei", 0, 24)); // NOI18N
-        jLabel15.setText("Are You SURE");
-
-        jLabel16.setFont(new java.awt.Font("Microsoft YaHei", 0, 26)); // NOI18N
-        jLabel16.setText("To DISCHARGE");
-
-        jButton4.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jButton4.setText("Go Back");
-        jButton4.setAlignmentY(0.0F);
-        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-
-        jButton5.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jButton5.setText("Exit");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-
-        jLabel17.setFont(new java.awt.Font("Microsoft YaHei", 1, 28)); // NOI18N
-        jLabel17.setText("?!");
-
-        javax.swing.GroupLayout AAppeal3Layout = new javax.swing.GroupLayout(AAppeal3);
-        AAppeal3.setLayout(AAppeal3Layout);
-        AAppeal3Layout.setHorizontalGroup(
-            AAppeal3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AAppeal3Layout.createSequentialGroup()
-                .addGroup(AAppeal3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AAppeal3Layout.createSequentialGroup()
-                        .addGap(112, 112, 112)
-                        .addComponent(jLabel15))
-                    .addGroup(AAppeal3Layout.createSequentialGroup()
-                        .addGap(164, 164, 164)
-                        .addComponent(jButton5)))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(AAppeal3Layout.createSequentialGroup()
-                .addGroup(AAppeal3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AAppeal3Layout.createSequentialGroup()
-                        .addGap(97, 97, 97)
-                        .addGroup(AAppeal3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel14)
-                            .addComponent(jLabel16)))
-                    .addGroup(AAppeal3Layout.createSequentialGroup()
-                        .addGap(153, 153, 153)
-                        .addComponent(jButton4))
-                    .addGroup(AAppeal3Layout.createSequentialGroup()
-                        .addGap(180, 180, 180)
-                        .addComponent(jLabel17))
-                    .addGroup(AAppeal3Layout.createSequentialGroup()
-                        .addGap(118, 118, 118)
-                        .addComponent(jLabel13)))
-                .addContainerGap(114, Short.MAX_VALUE))
-        );
-        AAppeal3Layout.setVerticalGroup(
-            AAppeal3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AAppeal3Layout.createSequentialGroup()
-                .addGap(76, 76, 76)
-                .addComponent(jLabel15)
-                .addGap(51, 51, 51)
-                .addComponent(jLabel16)
-                .addGap(52, 52, 52)
-                .addComponent(jLabel13)
-                .addGap(49, 49, 49)
-                .addComponent(jLabel14)
-                .addGap(33, 33, 33)
-                .addComponent(jLabel17)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
-                .addComponent(jButton4)
-                .addGap(33, 33, 33)
-                .addComponent(jButton5)
-                .addGap(44, 44, 44))
-        );
-
-        jLabel9.setFont(new java.awt.Font("Microsoft YaHei", 0, 24)); // NOI18N
-        jLabel9.setText("Your APPEAL");
-
-        jLabel10.setFont(new java.awt.Font("Microsoft YaHei", 0, 26)); // NOI18N
-        jLabel10.setText("For ADOPTION");
-
-        jLabel11.setFont(new java.awt.Font("Microsoft YaHei", 0, 24)); // NOI18N
-        jLabel11.setText("Has Been Posted");
-
-        jLabel12.setFont(new java.awt.Font("Microsoft YaHei", 1, 28)); // NOI18N
-        jLabel12.setText("SUCCESSFULLY");
-
-        jButton3.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jButton3.setText("OK");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout AAppeal2Layout = new javax.swing.GroupLayout(AAppeal2);
-        AAppeal2.setLayout(AAppeal2Layout);
-        AAppeal2Layout.setHorizontalGroup(
-            AAppeal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AAppeal2Layout.createSequentialGroup()
-                .addGroup(AAppeal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(AAppeal2Layout.createSequentialGroup()
-                        .addGap(171, 171, 171)
-                        .addComponent(jButton3))
-                    .addGroup(AAppeal2Layout.createSequentialGroup()
-                        .addGap(97, 97, 97)
-                        .addGroup(AAppeal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel11)
-                            .addComponent(jLabel10)))
-                    .addGroup(AAppeal2Layout.createSequentialGroup()
-                        .addGap(89, 89, 89)
-                        .addComponent(jLabel12))
-                    .addGroup(AAppeal2Layout.createSequentialGroup()
-                        .addGap(113, 113, 113)
-                        .addComponent(jLabel9)))
-                .addContainerGap(98, Short.MAX_VALUE))
-        );
-        AAppeal2Layout.setVerticalGroup(
-            AAppeal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(AAppeal2Layout.createSequentialGroup()
-                .addGap(124, 124, 124)
-                .addComponent(jLabel9)
-                .addGap(42, 42, 42)
-                .addComponent(jLabel10)
-                .addGap(43, 43, 43)
-                .addComponent(jLabel11)
-                .addGap(43, 43, 43)
-                .addComponent(jLabel12)
-                .addGap(82, 82, 82)
-                .addComponent(jButton3)
-                .addContainerGap(104, Short.MAX_VALUE))
-        );
-
-        jLabel1.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        jLabel1.setText("Appeal for Adoption");
-
-        jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/animal.png"))); // NOI18N
         jLabel2.setText("Select Animal :");
+        AAppeal1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 110, 120, 30));
 
-        jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/sp2.png"))); // NOI18N
         jLabel3.setText("Select Service Provider :");
+        AAppeal1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 170, 30));
 
+        jComboBox1.setBackground(new java.awt.Color(51, 51, 51));
         jComboBox1.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jComboBox1.setForeground(new java.awt.Color(255, 255, 0));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Select--", "NGO", "VET", "PARAVET", "GROMMER" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
             }
         });
+        AAppeal1.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, 420, 20));
 
-        jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/location5.png"))); // NOI18N
         jLabel4.setText("Select Location :");
+        AAppeal1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 230, 140, 20));
 
+        jComboBox2.setBackground(new java.awt.Color(51, 51, 51));
         jComboBox2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jComboBox2.setModel(new DefaultComboBoxModel(new String[] {"--Select--", "Kolkata", "Dum Dum", "Salt Lake", "New Town", "Alipurduar", "Bankura", "Birbhum", "Cooch Behar", "Dakshin Dinajpur (South Dinajpur)", "Darjeeling", "Hooghly", "Howrah", "Jalpaiguri", "Jhargram", "Kalimpong", "Kolkata", "Malda", "Murshidabad", "Nadia", "North 24 Parganas", "Paschim Medinipur (West Medinipur)", "Paschim (West) ", "Burdwan (Bardhaman)", "Purba Burdwan (Bardhaman)", "Purba Medinipur (East Medinipur)", "Purulia", "South 24 Parganas", "Uttar Dinajpur (North Dinajpur)"}));
+        jComboBox2.setForeground(new java.awt.Color(255, 255, 0));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Select--", "Alipurduar", "Bankura", "Birbhum", "Cooch Behar", "Dakshin Dinajpur (South Dinajpur)", "Darjeeling", "Hooghly", "Howrah", "Jalpaiguri", "Jhargram", "Kalimpong", "Kolkata", "Malda", "Murshidabad", "Nadia", "North 24 Parganas", "Paschim Medinipur (West Medinipur)", "Paschim (West) ", "Burdwan (Bardhaman)", "Purba Burdwan (Bardhaman)", "Purba Medinipur (East Medinipur)", "Purulia", "South 24 Parganas", "Uttar Dinajpur (North Dinajpur)" }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox2ActionPerformed(evt);
             }
         });
+        AAppeal1.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 230, 420, 20));
 
-        jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/age.png"))); // NOI18N
         jLabel5.setText("Enter Animal's Age :");
+        AAppeal1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 290, 150, 20));
 
+        jTextField2.setBackground(new java.awt.Color(51, 51, 51));
         jTextField2.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(255, 255, 0));
+        AAppeal1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 290, 420, 20));
 
-        jLabel6.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/needs.png"))); // NOI18N
         jLabel6.setText("Enter Needs :");
+        AAppeal1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 350, 110, 20));
 
-        jLabel7.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/disease.png"))); // NOI18N
         jLabel7.setText("Enter Disease (if any) :");
+        AAppeal1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 400, 170, 30));
 
-        jLabel8.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(153, 0, 0));
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/criteria.png"))); // NOI18N
         jLabel8.setText("Select Criteria :");
+        AAppeal1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 460, 140, 20));
 
+        jComboBox3.setBackground(new java.awt.Color(51, 51, 51));
         jComboBox3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jComboBox3.setModel(new DefaultComboBoxModel(new String[] {"--Select--", "NA", "Open", "Semi-open", "Closed", "Domestic", "International"}));
+        jComboBox3.setForeground(new java.awt.Color(255, 255, 0));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Select--", "Open", "Semi-open", "Closed", "Domestic", "International" }));
         jComboBox3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox3ActionPerformed(evt);
             }
         });
+        AAppeal1.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 460, 420, 20));
 
+        jTextField4.setBackground(new java.awt.Color(51, 51, 51));
         jTextField4.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField4.setForeground(new java.awt.Color(255, 255, 0));
+        AAppeal1.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 400, 420, 20));
 
-        jButton1.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(255, 255, 204));
+        jButton1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(153, 0, 0));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/yes.png"))); // NOI18N
         jButton1.setText("Appeal");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
+        AAppeal1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 520, -1, -1));
 
-        jButton2.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(255, 255, 204));
+        jButton2.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(153, 0, 0));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/exit.png"))); // NOI18N
         jButton2.setText("Exit");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
+        AAppeal1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 520, -1, -1));
 
+        jTextField3.setBackground(new java.awt.Color(51, 51, 51));
         jTextField3.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jTextField3.setForeground(new java.awt.Color(255, 255, 0));
+        AAppeal1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 350, 420, 20));
 
         jError1.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jError1.setForeground(new java.awt.Color(255, 0, 0));
+        AAppeal1.add(jError1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 130, 420, 20));
+        jError1.getAccessibleContext().setAccessibleName("jError1");
 
         jError2.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jError2.setForeground(new java.awt.Color(255, 0, 0));
+        AAppeal1.add(jError2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 190, 420, 20));
+        jError2.getAccessibleContext().setAccessibleName("jError2");
 
         jError3.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jError3.setForeground(new java.awt.Color(255, 0, 0));
+        AAppeal1.add(jError3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 250, 420, 20));
 
         jError4.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jError4.setForeground(new java.awt.Color(255, 0, 0));
+        AAppeal1.add(jError4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 310, 420, 20));
 
         jError5.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jError5.setForeground(new java.awt.Color(255, 0, 0));
+        AAppeal1.add(jError5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 370, 420, 20));
 
         jError6.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jError6.setForeground(new java.awt.Color(255, 0, 0));
+        AAppeal1.add(jError6, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 420, 420, 20));
 
         jError7.setFont(new java.awt.Font("Times New Roman", 0, 11)); // NOI18N
         jError7.setForeground(new java.awt.Color(255, 0, 0));
+        AAppeal1.add(jError7, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 480, 420, 20));
 
+        jComboBox0.setBackground(new java.awt.Color(51, 51, 51));
         jComboBox0.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        jComboBox0.setModel(new DefaultComboBoxModel(new String[] {"--Select--", "Bird", "Cat", "Dog", "Hamster", "Rabbit", "Fish"}));
+        jComboBox0.setForeground(new java.awt.Color(255, 255, 0));
+        jComboBox0.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Select--", "Bird", "Cat", "Cow", "Dog", "Fish", "Rabbit" }));
         jComboBox0.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox0ActionPerformed(evt);
             }
         });
+        AAppeal1.add(jComboBox0, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 420, 20));
 
-        javax.swing.GroupLayout AAppeal1Layout = new javax.swing.GroupLayout(AAppeal1);
-        AAppeal1Layout.setHorizontalGroup(
-        	AAppeal1Layout.createParallelGroup(Alignment.TRAILING)
-        		.addGroup(AAppeal1Layout.createSequentialGroup()
-        			.addGap(58)
-        			.addComponent(jButton1)
-        			.addPreferredGap(ComponentPlacement.RELATED, 152, Short.MAX_VALUE)
-        			.addComponent(jButton2, GroupLayout.PREFERRED_SIZE, 63, GroupLayout.PREFERRED_SIZE)
-        			.addGap(56))
-        		.addGroup(AAppeal1Layout.createSequentialGroup()
-        			.addContainerGap(36, Short.MAX_VALUE)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.LEADING)
-        				.addComponent(jLabel2)
-        				.addComponent(jLabel3)
-        				.addComponent(jLabel4)
-        				.addComponent(jLabel5)
-        				.addComponent(jLabel6)
-        				.addComponent(jLabel7)
-        				.addComponent(jLabel8))
-        			.addGap(23)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.LEADING, false)
-        				.addComponent(jError7, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jError5, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jError2, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jComboBox1, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jComboBox2, 0, 200, Short.MAX_VALUE)
-        				.addComponent(jTextField2)
-        				.addComponent(jComboBox3, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jTextField4)
-        				.addComponent(jTextField3)
-        				.addComponent(jError1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jError3, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jError4, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jError6, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        				.addComponent(jComboBox0, 0, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        			.addGap(29))
-        		.addGroup(AAppeal1Layout.createSequentialGroup()
-        			.addContainerGap(108, Short.MAX_VALUE)
-        			.addComponent(jLabel1)
-        			.addGap(106))
-        );
-        AAppeal1Layout.setVerticalGroup(
-        	AAppeal1Layout.createParallelGroup(Alignment.LEADING)
-        		.addGroup(AAppeal1Layout.createSequentialGroup()
-        			.addGap(24)
-        			.addComponent(jLabel1)
-        			.addGap(34)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jLabel2)
-        				.addComponent(jComboBox0, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addComponent(jError1, GroupLayout.PREFERRED_SIZE, 16, GroupLayout.PREFERRED_SIZE)
-        			.addGap(18)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jComboBox1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        				.addComponent(jLabel3))
-        			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addComponent(jError2, GroupLayout.PREFERRED_SIZE, 13, GroupLayout.PREFERRED_SIZE)
-        			.addGap(26)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jLabel4)
-        				.addComponent(jComboBox2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addComponent(jError3, GroupLayout.PREFERRED_SIZE, 17, GroupLayout.PREFERRED_SIZE)
-        			.addGap(21)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jLabel5)
-        				.addComponent(jTextField2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addComponent(jError4, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE)
-        			.addGap(29)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jLabel6)
-        				.addComponent(jTextField3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addComponent(jError5, GroupLayout.PREFERRED_SIZE, 17, GroupLayout.PREFERRED_SIZE)
-        			.addGap(23)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jLabel7, GroupLayout.PREFERRED_SIZE, 20, GroupLayout.PREFERRED_SIZE)
-        				.addComponent(jTextField4, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addComponent(jError6, GroupLayout.PREFERRED_SIZE, 17, GroupLayout.PREFERRED_SIZE)
-        			.addGap(25)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jLabel8)
-        				.addComponent(jComboBox3, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-        			.addPreferredGap(ComponentPlacement.RELATED)
-        			.addComponent(jError7, GroupLayout.PREFERRED_SIZE, 17, GroupLayout.PREFERRED_SIZE)
-        			.addGap(31)
-        			.addGroup(AAppeal1Layout.createParallelGroup(Alignment.BASELINE)
-        				.addComponent(jButton1)
-        				.addComponent(jButton2))
-        			.addContainerGap())
-        );
-        AAppeal1.setLayout(AAppeal1Layout);
+        jSeparator1.setBackground(new java.awt.Color(240, 240, 240));
+        jSeparator1.setForeground(new java.awt.Color(204, 0, 0));
+        AAppeal1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 930, 20));
 
-        jError1.getAccessibleContext().setAccessibleName("jError1");
-        jError2.getAccessibleContext().setAccessibleName("jError2");
+        jLabel21.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/bg4.png"))); // NOI18N
+        AAppeal1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 930, 610));
+
+        AAppeal2.setPreferredSize(new java.awt.Dimension(929, 610));
+        AAppeal2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton3.setBackground(new java.awt.Color(255, 255, 204));
+        jButton3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(153, 0, 0));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/yes.png"))); // NOI18N
+        jButton3.setText("OK");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        AAppeal2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 500, -1, -1));
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/appeal.png"))); // NOI18N
+        AAppeal2.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 930, 610));
+
+        AAppeal3.setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
+        AAppeal3.setMinimumSize(new java.awt.Dimension(930, 1098));
+        AAppeal3.setPreferredSize(new java.awt.Dimension(929, 610));
+        AAppeal3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton4.setBackground(new java.awt.Color(255, 255, 204));
+        jButton4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(153, 0, 0));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/back.png"))); // NOI18N
+        jButton4.setText("Go Back To Appeal");
+        jButton4.setAlignmentY(0.0F);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        AAppeal3.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 490, -1, -1));
+
+        jButton5.setBackground(new java.awt.Color(255, 255, 204));
+        jButton5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(153, 0, 0));
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/home.png"))); // NOI18N
+        jButton5.setText("Go Back To Home");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        AAppeal3.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 490, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Segoe Script", 1, 30)); // NOI18N
+        jLabel9.setText("?");
+        AAppeal3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 340, 30, 30));
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/discharge.png"))); // NOI18N
+        AAppeal3.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 930, 610));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-        	layout.createParallelGroup(Alignment.LEADING)
-        		.addComponent(AAppeal1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        		.addComponent(AAppeal2, Alignment.TRAILING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        		.addComponent(AAppeal3, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(AAppeal1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addComponent(AAppeal2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addComponent(AAppeal3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 1, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
-        	layout.createParallelGroup(Alignment.LEADING)
-        		.addGroup(layout.createSequentialGroup()
-        			.addComponent(AAppeal1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        			.addGap(23))
-        		.addComponent(AAppeal2, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-        		.addComponent(AAppeal3, GroupLayout.DEFAULT_SIZE, 598, Short.MAX_VALUE)
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(AAppeal1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addComponent(AAppeal2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addComponent(AAppeal3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
-        getContentPane().setLayout(layout);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -568,6 +461,41 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
         }
     }
     
+    /**
+     * @param args the command line arguments
+     */
+    /*public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        /*try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(AdoptionAppealUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(AdoptionAppealUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(AdoptionAppealUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(AdoptionAppealUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        /*java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new AdoptionAppealUI(new AppealManager()).setVisible(true);
+            }
+        });
+    }*/
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel AAppeal1;
     private javax.swing.JPanel AAppeal2;
@@ -589,15 +517,10 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
     private javax.swing.JLabel jError6;
     private javax.swing.JLabel jError7;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -605,7 +528,9 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JSeparator jSeparator1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
+    // End of variables declaration//GEN-END:variables
 }
