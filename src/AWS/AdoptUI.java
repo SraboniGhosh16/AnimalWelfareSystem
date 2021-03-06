@@ -211,12 +211,18 @@ public class AdoptUI
 						error_lbl_serviceP.setText("*Please select Service Provider");
 					if(txt_age.getText().isEmpty()==false && Integer.parseInt(txt_age.getText())<0)
 						error_lbl_age.setText("*Please Enter Age correctly (It cannot be negative)");
-					else if(error_lbl_serviceP.getText().equals("") && error_lbl_animal.getText().equals("") && error_lbl_location.getText().equals("") && error_lbl_age.getText().equals(""))
+                                        //Issue #1
+				        //Title - 2.4 : Adopt -> 2 : Adopt Page - Release 0.1 #1
+					//-------------------------------------------- Handled by Aadriza Sen Sharma
+					else if(txt_age.getText().isEmpty()==false && (Integer.parseInt(txt_age.getText())<=0 || Integer.parseInt(txt_age.getText())>=20))
+						error_lbl_age.setText("*Please Enter Age correctly (it must be within 0 and 20)");
+					else if(error_lbl_serviceP.getText().equals("") && error_lbl_animal.getText().equals("") && error_lbl_location.getText().equals(""))
 					{
 						panel_find.setVisible(false);
 						panel_show.setVisible(true);
+                                                error_lbl_age.setText("");
 					}
-					else
+                                        else
 						error_lbl_age.setText("");
 																			
 					String animal = null, location = null, spUsername = null;
@@ -306,6 +312,9 @@ public class AdoptUI
 			public void actionPerformed(ActionEvent e)
 			{
 				panel_find.setVisible(true);
+                                //Issue #2
+				//Title - 2.4 : Adopt -> 4 : Back - Release 0.1 #2
+				//-------------------------------------------- Handled by Aadriza Sen Sharma
 				for (int i = 0; i < table.getRowCount()-1; i++)
 				{
 					table.setValueAt((Object)"",i+1,0);

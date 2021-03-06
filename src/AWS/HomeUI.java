@@ -7,7 +7,7 @@ package AWS;
 
 /**
  *
- * @author Sraboni
+ * @author Sraboni Ghosh
  */
 public class HomeUI extends javax.swing.JFrame {
 

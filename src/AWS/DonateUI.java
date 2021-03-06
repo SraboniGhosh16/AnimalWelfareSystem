@@ -16,7 +16,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Sraboni
+ * @author Prottasha Roy Puja
  */
 public class DonateUI extends javax.swing.JFrame {
 
@@ -334,6 +334,9 @@ public class DonateUI extends javax.swing.JFrame {
         jPanel3.setVisible(false);
     }//GEN-LAST:event_jButton4ActionPerformed
 
+    //Issue #5
+    //Title - 2.5 : Donate-> 3 : Matches Found - Release 0.1 #5
+    //-------------------------------------------- Handled by Sraboni Ghosh
     private void setFoundMatches(ArrayList<DonationAppeal> matches)
     {
         model = new DefaultTableModel();

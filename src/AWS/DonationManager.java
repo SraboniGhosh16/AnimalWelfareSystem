@@ -2,7 +2,7 @@ package AWS;
 
 /**
 *
-* @author PROTTASHA
+* @author Prottasha Roy Puja
 */
 import java.io.*;
 import java.util.*;

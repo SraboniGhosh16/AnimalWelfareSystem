@@ -2,7 +2,7 @@ package AWS;
 
 /**
  *
- * @author Sraboni
+ * @author Sraboni Ghosh, Prottasha Roy Puja
  */
 public class DonationAppeal 
 {

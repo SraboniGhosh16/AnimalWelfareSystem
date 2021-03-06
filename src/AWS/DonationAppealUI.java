@@ -12,7 +12,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author Sraboni
+ * @author Sraboni Ghosh
  */
 public class DonationAppealUI extends javax.swing.JFrame {
     private DisplayManager mgr;

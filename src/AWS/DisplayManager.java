@@ -1,5 +1,7 @@
 package AWS;
-
+/**
+ * @author Aadriza Sen Sharma
+ */
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;

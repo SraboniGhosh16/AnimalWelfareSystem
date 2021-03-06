@@ -11,7 +11,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Sraboni
+ * @author Sraboni Ghosh
  */
 public class AdoptionAppealUI extends javax.swing.JFrame {
     private DisplayManager mgr;
@@ -330,9 +330,13 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //Issue #4
+    //Title - 2.3 : Appeal -> 5 : Exit - Release 0.1 #4
+    //-------------------------------------------- Handled by Sraboni Ghosh
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         AAppeal1.setVisible(false);
+        AAppeal2.setVisible(false);
         AAppeal3.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -443,6 +447,9 @@ public class AdoptionAppealUI extends javax.swing.JFrame {
             this.jError7.setText("");
     }//GEN-LAST:event_jComboBox3ActionPerformed
 
+    //Issue #3
+    //Title - 2.3 : Appeal -> 2 : Appeal for Adoption Page - Release 0.1 #3
+    //-------------------------------------------- Handled by Sraboni Ghosh
     private boolean checkAge(){
         try{
             int x = Integer.parseInt(jTextField2.getText());

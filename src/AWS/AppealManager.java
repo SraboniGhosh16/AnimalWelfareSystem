@@ -2,7 +2,7 @@ package AWS;
 
 /**
  *
- * @author Sraboni
+ * @author Sraboni Ghosh
  */
 import java.io.*;
 import java.util.*;
